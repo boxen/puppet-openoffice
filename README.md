@@ -1,5 +1,7 @@
 # OpenOffice Puppet Module for Boxen
 
+Install [OpenOffice](http://www.openoffice.org/porting/mac/), an open-source office productivity software suite.
+
 ## Usage
 
 ```puppet
