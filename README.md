@@ -1,5 +1,7 @@
 # OpenOffice Puppet Module for Boxen
 
+[![Build Status](https://travis-ci.org/boxen/puppet-openoffice.png)](https://travis-ci.org/boxen/puppet-openoffice)
+
 Install [OpenOffice](http://www.openoffice.org/porting/mac/), an open-source office productivity software suite.
 
 ## Usage
