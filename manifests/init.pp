@@ -3,9 +3,11 @@
 # Examples
 #
 #   include openoffice
-class openoffice {
-  package { 'OpenOffice':
+class openoffice($version='4.0.1') {
+
+  package { "OpenOffice-${version}":
     provider => 'appdmg',
-    source   => 'http://garr.dl.sourceforge.net/project/openofficeorg.mirror/stable/3.4.1/Apache_OpenOffice_incubating_3.4.1_MacOS_x86_install_en-US.dmg',
+    source   => "http://garr.dl.sourceforge.net/project/openofficeorg.mirror/${version}/binaries/en-US/Apache_OpenOffice_${version}_MacOS_x86_install_en-US.dmg",
   }
+
 }
